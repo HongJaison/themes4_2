@@ -68,7 +68,7 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
         <ul class="nav navbar-nav">
 
             {{.NavButtonsHTML}}
-
+            
             <!--<li title="{{lang "Fixed the sidebar"}}">
                 <a href="javascript:void(0);" class="fixed-btn" data-click="false">
                     <i class="fa fa-thumb-tack"></i>
@@ -2906,6 +2906,7 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
                     </div>
                     <div class="pull-left info">
                         {{.User.Name}}
+                        <br>
                         <a href="#"><i class="fa fa-circle text-success"></i> {{lang "online"}}</a>
                     </div>
                 </div>
