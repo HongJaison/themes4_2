@@ -2907,7 +2907,10 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
                     <div class="pull-left info">
                         {{.User.Name}}
                         <br>
-                        <a href="#"><i class="fa fa-circle text-success"></i> {{lang "online"}}</a>
+                        <a href="#">
+                            <i class="fa fa-circle text-success"></i>
+                            {{lang "online"}}
+                        </a>
                     </div>
                 </div>
             {{end}}
